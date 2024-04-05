@@ -1,0 +1,54 @@
+/* Seccion footer */
+footer{
+    background: #2C2C2C;
+    color: #fff;
+}
+
+.sec-footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.sec-footer h6{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.sec-footer img{
+    height: 94px;
+}
+
+.sec-footer ul {
+    padding-left: 0;
+}
+
+.sec-footer li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.sec-footer p{
+    padding-bottom: 20px;
+}
+
+.sec-footer span i{
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* Seccion Copyright */
+.sec-copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-copyright p{
+    text-align: center;
+    color: #C8C8C8;
+    opacity: 0.5;
+}
+
+.icon-footer{
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+/* Seccion header */
+.sec-header img{
+    height: 43.71px;
+}
+
+.sec-header li{
+    margin-right: 50px;
+}
+
+.linea-menu{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding: 0px 20px;
+}
+
+.navbar-collapse {
+    align-items: end;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
