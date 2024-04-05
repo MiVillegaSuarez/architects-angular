@@ -1,23 +1,52 @@
-@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
-
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-    font-family: 'TT Hoves Pro Trial', sans-serif;
-}
-
-a{
+/* Esilos de botones */
+.global-01-bnt{
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
     text-decoration: none;
-    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    background-color: #fff;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-h3{
-    font-size: 64px;
-    color: #BDBDBD;
-    font-weight: 300;
-    padding-bottom: 40px;
+.global-01-bnt:hover{
+    color: #fff;
+    border: 1px solid #333;
+    background-color: #333;
+}
+
+.global-02-bnt{
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #333;
+    border-radius: 0px;
+    background-color: #333;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.global-02-bnt:hover{
+    color: #333;
+    border: 1px solid #333;
+    background-color: #fff;
 }

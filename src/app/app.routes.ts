@@ -6,6 +6,11 @@ import { GaleriaComponent } from './pages/galeria/galeria.component';
 
 export const routes: Routes = [
     {
+        path: '',
+        redirectTo: '/inicio',
+        pathMatch: 'full'
+    },
+    {
         path: 'inicio',
         component: InicioComponent
     },
