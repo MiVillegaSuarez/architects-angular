@@ -1,7 +1,6 @@
 {
-    "tituloBienvenida": "Aqui va el texto a usar",
-    "titleInicioSeccion02": "Латински",
-    "titleInicioSeccion03": "нормален текст",
-    "titleInicioSeccion04": "популярен наши",
-    "titleInicioSeccion05": "софтуер за печатни"
+    "tituloInicioSeccion02": "Латински",
+    "tituloInicioSeccion03": "нормален текст",
+    "tituloInicioSeccion04": "популярен наши",
+    "tituloInicioSeccion05": "софтуер за печатни"
 }

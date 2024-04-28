@@ -4,6 +4,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 import { NavegationComponent } from '../../components/navegation/navegation.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TextsService } from '../../services/texts/texts.service';
+import { ContactFormComponent } from '../../components/contact-form/contact-form.component';
 
 @Component({
   selector: 'app-inicio',
@@ -12,6 +13,7 @@ import { TextsService } from '../../services/texts/texts.service';
     HeaderComponent,
     FooterComponent,
     NavegationComponent,
+    ContactFormComponent,
     HttpClientModule
   ],
   providers: [TextsService],
