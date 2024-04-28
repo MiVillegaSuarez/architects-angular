@@ -26,13 +26,11 @@ export class ContactFormComponent {
           Validators.required,
           Validators.minLength(4)
         ]),
-        inputCity: new FormControl("", [
-          Validators.minLength(4)
-        ]),
+        inputCity: new FormControl(""),
         textareaMessage: new FormControl("", [
           Validators.required,
-          Validators.minLength(4),
-          Validators.maxLength(500)
+          Validators.minLength(20),
+          Validators.maxLength(256)
         ])
       }
     )
