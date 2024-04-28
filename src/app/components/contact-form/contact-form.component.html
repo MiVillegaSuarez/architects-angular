@@ -1,0 +1,23 @@
+<form [formGroup]="contactForm" id="contacto" class="row g-3">
+    <div class="col-12">
+        <input formControlName="inputName" type="text" class="index-sec-05-input" id="inputName" placeholder="факт (nombre)">
+    </div>
+    <div class="col-12">
+        <input formControlName="inputPhone" type="tel" class="index-sec-05-input" id="inputPhone" placeholder="английски езикато* (telefono)">
+    </div>
+    <div class="col-12">
+        <input formControlName="inputEmail" type="email" class="index-sec-05-input" id="inputEmail" placeholder="E-mail* (correo electronico)">
+    </div>
+    <div class="col-12">
+        <input formControlName="inputCity" type="text" class="index-sec-05-input" id="inputCity" placeholder="Популяризиран епрез/60те (ciudad)">
+    </div>
+    <div class="col-12">
+        <textarea formControlName="textareaMessage" class="index-sec-05-input" id="textareaMessage" rows="3" placeholder="софтуерза* (mensaje)"></textarea>
+    </div>
+    <div class="col-12">
+        <p>публикуване и редактори на Уеб страници използват Lorem Ipsum като примерен</p>
+    </div>
+    <div class="col-12">
+        <button (click)="showFormData()" type="submit" class="global-02-bnt">случайност →</button>
+    </div>
+</form>

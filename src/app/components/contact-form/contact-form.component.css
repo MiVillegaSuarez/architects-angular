@@ -1,0 +1,33 @@
+/* Seccion 05 formulario */
+.index-sec-05{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index-sec-05 p{
+    padding-left: 2.5rem;
+    font-size: 9pt;
+}
+
+.index-sec-05-input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8d8d8d;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f3f3f3;
+    background-clip: padding-box;
+    border: 1px solid #f3f3f3;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Class de Angular */
+.index-sec-05-input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
