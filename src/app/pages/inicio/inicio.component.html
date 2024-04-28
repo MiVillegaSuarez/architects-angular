@@ -20,10 +20,28 @@
   <!-- Seccion 00 Botones flotantes fixed para contactenos, galeria e intra-documentales -->
   <app-navegation></app-navegation>
 
-  <h2>{{texts.tituloBienvenida}}</h2>
+  <h2>{{texts.titleSeccion02}}</h2>
 
   <!-- Seccion 01 del slider -->
-  <app-slider></app-slider>
+  <section class="container index-sec-01">
+    <div class="row">
+      <div class="col-4">
+        <img class="slide-project" src="assets/images/PROJECT.png" alt="Project">
+        <img class="slide-nurtwn" src="assets/images/NURTOWN.png" alt="Nurtown">
+        <br>
+        <div class="slide-arrows">
+          <img class="slide-left" src="assets/images/slide-left.png" alt="Flecha a la izquierda">
+          <img class="slide-right" src="assets/images/slide-right.png" alt="Flecha a la derecha">
+          <img class="slide-line" src="assets/images/slide-line.png" alt="Linea recta decorativa">
+        </div>
+        <img class="slide-numbers" src="assets/images/slide-numbers.png" alt="Numero de diapositiva en el slide">
+      </div>
+      <div class="col-8 index-sec-01-div">
+        <img class="index-sec-01-banner" src="assets/images/image-01.png" alt="Imagen del slide">
+        <a class="global-01-bnt index-sec-01-bnt" href="#">времетоадр →</a>
+      </div>
+    </div>
+  </section>
 
   <!-- Seccion 02 de banner con 3 imagenes -->
   <section class="container index-sec-02">
@@ -43,7 +61,7 @@
         </div>
       </div>
       <div class="col-4">
-        <h3>Латински</h3>
+        <h3>{{texts.titleInicioSeccion02}}</h3>
         <P>Той използва речник от над 200 латински думи, комбинирани по подходящ начин като изречения, за да генерират
           истински Lorem Ipsum пасажи. Оттук следва, че генерираният Lorem Ipsum пасаж не съдържа повторения, смущаващи,
           нецензурни и всякакви неподходящи думи.</P>
@@ -56,7 +74,7 @@
   <section class="container index-sec-03">
     <div class="row">
       <div class="col-12">
-        <h3>нормален текст</h3>
+        <h3>{{texts.titleInicioSeccion03}}</h3>
       </div>
     </div>
     <div class="row">
@@ -81,7 +99,7 @@
   <section class="container index-sec-04">
     <div class="row">
       <div class="col-12">
-        <h3>популярен наши</h3>
+        <h3>{{texts.titleInicioSeccion04}}</h3>
       </div>
     </div>
     <div class="row">
@@ -122,7 +140,7 @@
   <section class="container index-sec-05" id="formulario">
     <div class="row">
       <div class="col-12">
-        <h3>софтуер за печатни</h3>
+        <h3>{{texts.titleInicioSeccion05}}</h3>
       </div>
     </div>
     <div class="row">
@@ -160,8 +178,7 @@
   <!-- Seccion de footer de la pagina -->
   <app-footer></app-footer>
 
-  
-  
+  <!-- Custom js -->
   <!-- <script src="js/main.js"></script>
   <script src="js/index.js"></script>
   <script src="js/formulario.js"></script> -->

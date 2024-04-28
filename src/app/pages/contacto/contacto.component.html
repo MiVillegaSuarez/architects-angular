@@ -1,1 +1,49 @@
-<p>contacto works!</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+ <!-- Titulo -->
+ <title>Contacto | Diseño arquitectonico</title>
+
+ <!-- Favicon -->
+ <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+
+</head>
+
+<body>
+  <!-- Seccion del encabezado -->
+  <app-header></app-header>
+
+<!-- Seccion 00 Botones flotantes fixed para contactenos, galeria e intra-documentales -->
+<app-navegation></app-navegation>
+
+  <!-- Seccion 01 de informacion y mapa -->
+  <section class="container contacto-sec-01">
+    <div class="row">
+      <div class="col-6">
+        <img class="contacto-sec-01-kohtak" src="assets/images/КОНТАКТНАЯ.png" alt="">
+        <img class="contacto-sec-01-nhop" src="assets/images/ИНФОРМАЦИЯ.png" alt="">
+        <p class="contacto-sec-01-text-1">«Digital Project»</p>
+        <p class="contacto-sec-01-text-2">като примерен текстов модел от Цицерон</p>
+        <p class="contacto-sec-01-tel">+7 (701) 77 76 811</p>
+        <p class="contacto-sec-01-email">Galym.sultanov</p>
+        <button class="global-02-bnt">истински такъв</button>
+      </div>
+      <div class="col-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5623.765930195814!2d-74.06525768512348!3d4.664654192331852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1706320702433!5m2!1ses-419!2sco"
+          width="790" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion de footer de la pagina -->
+  <app-footer></app-footer>
+
+  <!-- Custom js -->
+  <script src="js/main.js"></script>
+  <script src="js/contacto.js"></script>
+</body>
+
+</html>

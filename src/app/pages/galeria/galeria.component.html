@@ -1,1 +1,101 @@
-<p>galeria works!</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Titulo -->
+  <title>Galeria | Diseño arquitectonico</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+
+  <!-- Custom css -->
+  <!-- <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="css/galeria.css"> -->
+</head>
+
+<body>
+  <!-- Seccion del encabezado -->
+  <app-header></app-header>
+
+  <!-- Seccion 00 Botones flotantes fixed para contactenos, galeria e intra-documentales -->
+  <app-navegation></app-navegation>
+  
+  <!-- Seccion 01 galeria de videos -->
+  <section class="container galeria-sec-01">
+    <div class="row">
+      <div class="col-12">
+        <img class="galeria-sec-01-eper" src="assets/images/ГАЛЕРЕЯ.png" alt="">
+        <br>
+        <img class="galeria-sec-01-otor" src="assets/images/ФОТОГРАФИЙ.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jhMiIUb2GEA?si=X-MApfrh_8x7fYiB"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div class="col-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U4Esv6oj31M?si=FXWxTh5R5Y74preP"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion 02 tabla informativa -->
+  <section class="container galeria-sec-02">
+    <div class="row">
+      <div class="col-12">
+        <img class="galeria-sec-02-hawn" src="assets/images/НАШИ.png" alt="">
+        <br>
+        <img class="galeria-sec-02-poek" src="assets/images/ПРОЕКТЫ.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">което</th>
+              <th scope="col">повече</th>
+              <th scope="col">прави</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">1</th>
+              <td>истински</td>
+              <td>такъвТой</td>
+              <td>използва</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>самоеелял</td>
+              <td>повече</td>
+              <td>внимание</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>шрифтове</td>
+              <td>Тозиначин</td>
+              <td>несамое</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion de footer de la pagina -->
+  <app-footer></app-footer>
+
+  <!-- Custom js -->
+  <!-- <script src="js/main.js"></script>
+  <script src="js/galeria.js"></script> -->
+</body>
+
+</html>
