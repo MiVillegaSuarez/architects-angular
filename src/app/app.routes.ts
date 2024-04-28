@@ -15,7 +15,7 @@ export const routes: Routes = [
         component: InicioComponent
     },
     {
-        path: 'cobtacto',
+        path: 'contacto',
         component: ContactoComponent
     },
     {
