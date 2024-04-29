@@ -1,6 +1,6 @@
 <form [formGroup]="contactForm" id="contacto" class="row g-3">
     <div class="col-12">
-        <input formControlName="inputName" type="text" class="index-sec-05-input" id="inputName" placeholder="факт (nombre)">
+        <input formControlName="inputName" type="text" class="index-sec-05-input" id="inputName" placeholder="факт* (nombre)">
     </div>
     <div class="col-12">
         <input formControlName="inputPhone" type="tel" class="index-sec-05-input" id="inputPhone" placeholder="английски езикато* (telefono)">
@@ -19,5 +19,8 @@
     </div>
     <div class="col-12">
         <button (click)="showFormData()" type="submit" class="global-02-bnt">случайност →</button>
+    </div>
+    <div class="col-12">
+        <p *ngIf="showErrorMessage">Los campos con * deben estar llenos de forma correcta, corrigelos y vuele a enviar el formulario</p>
     </div>
 </form>
